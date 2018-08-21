@@ -1,8 +1,3 @@
-#CEM TORUN
-#HERE IS MY CODE!
-
-#-------------------------------------
-#DEFINING VARIABLES AND FUNCTIONS
 
 listOfKeywords = [] #Setting an empty list for keywords
 listOfPrimaryScoreValues = [] #Setting an empty list for scores
@@ -203,15 +198,5 @@ print("The average happiness score per tweet in the eastern timezone was {} and 
 openTweets.close()
 openKeywords.close()
 
-#------------------
-#GRAPHICS
-
-from happy_histogram import drawSimpleHistogram
-
-drawSimpleHistogram(easternTimeZoneHappinessScoreFinal,centralTimeZoneHappinessScoreFinal,mountainTimeZoneHappinessScoreFinal,pacificTimeZoneHappinessScoreFinal)
-#values given in order of eastern, central, mountain, and pacific and specified.
-#--------------
-
-#THE END!
 
 
